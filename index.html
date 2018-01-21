@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICO</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" href="Assets/iframe-lightbox.min.css">
+<script src="Assets/iframe-lightbox.min.js"></script>
+
+</head>
+<body>
+
+<div class="sticky-bar">
+	<div class="sticky-bar-container">
+		<div class="logo">
+			<img src="Assets/logo/dark.svg" />
+		</div>
+
+		<div class="navigation-options">
+			<div class="nav-option">Home</div>
+			<div class="nav-option">Team</div>
+			<div class="nav-option">Contact</div>
+		</div>
+	</div>
+</div>
+
+<div class="separator">
+	
+</div>
+
+<div class="top-section">
+
+
+
+	<div class="top-content-container">
+		<div class="top-top-bar">
+			<div class="timer">
+				<div class="timer-header" id="Ico">ICO starts in:</div>
+				<div class="timer-numbers">
+					<div class="timer-number" id="days">05d</div>
+					<div class="timer-separator">:</div>
+					<div class="timer-number" id="hours">20h</div>
+					<div class="timer-separator">:</div>
+					<div class="timer-number" id="minutes">30m</div>
+					<div class="timer-separator">:</div>
+					<div class="timer-number" id="seconds">15s</div>
+				</div>
+
+<script>
+
+
+var countDownDate = new Date("Dec 31, 2017 23:59:59").getTime();
+var x = setInterval(function() {
+var now = new Date().getTime();
+var distance = countDownDate - now;
+
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+document.getElementById("days").innerHTML = days + "d";
+document.getElementById("hours").innerHTML = hours + "h";
+document.getElementById("minutes").innerHTML = minutes + "m";
+document.getElementById("seconds").innerHTML = seconds + "s";
+    
+	if (distance < 0) {
+	    clearInterval(x);
+	    document.getElementById("Ico").innerHTML = "EXPIRED";
+	}
+}, 1000);
+
+</script>
+
+
+			</div>
+		</div>
+
+		
+
+		<div class="top-mid-flex-container">
+
+			<div class="top-mid-left-bar">
+
+				<div class="left-bar-top">
+					<div class="h1-desktop">
+						<h1>In hac habitasse platea dolor<br>dictumst lorem ipsum.</h1>
+					</div>
+					<div class="h1-mobile">
+						<h1>In hac habitasse platea dolor dictumst lorem ipsum.</h1>
+					</div>
+				</div>
+
+				<div class="left-bar-bottom">	
+					<div class="slider-header">Subscribe and get the latest information</div>
+					<div class="slider-container">
+						<div class="slider-input-container">
+							<input class="slider-input" type="text" name="" placeholder="Enter your email">
+						</div>
+						<div class="subscribe-button">
+							<div class="subscribe-desktop">Subscribe</div>
+							<img class="subscribe-mobile" src="Assets/Icon/Subscribe@1x.svg" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="top-mid-right-bar">
+
+				<div class="iframe-lightbox-link" data-src="https://www.youtube.com/embed/j23HnORQXvs?rel=0&amp;controls=0&amp;showinfo=0" >
+					<div class="clickable-video">
+						<img class="playbutton" src="Assets/img/playbutton.png" width="75px" height="75px"></img>
+					</div>	
+				</div>
+
+				<script type="text/javascript">
+					[].forEach.call(document.getElementsByClassName("iframe-lightbox-link"), function(el) {
+  						el.lightbox = new IframeLightbox(el);
+					});
+
+				</script>
+	
+			</div>
+
+		</div>	
+
+		<div class="top-bottom-bar">
+			<div class="top-social-media">
+				<div class="top-social-media-header">Our Social Media</div>
+				<div class="top-social-media-icons">
+					
+					<img class="top-social-media-icon" src="Assets/Social icons/Twitter@1x.svg"/>
+					<img class="top-social-media-icon" src="Assets/Social icons/Facebook@1x.svg"/>
+					<img class="top-social-media-icon" src="Assets/Social icons/Medium@1x.svg"/>
+					<img class="top-social-media-icon" src="Assets/Social icons/Github@1x.svg"/>
+					<img class="top-social-media-icon" src="Assets/Social icons/Telegram@1x.svg"/>
+					
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="background-shapes">
+		<div class="shape-one"></div>
+		<div class="shape-two"></div>
+	</div>
+
+</div>
+
+<div class="mid-section">
+
+	<div class="team-section-container">
+		<div class="team-header">Team</div>
+
+		<div class="all-team-members">
+			<div class="team-member t-m-mobile" id="Edgar">
+				<div class="image-space-between">
+				<img src="Assets/img/edgar.png"/>
+
+				<div>
+					<div class="member-name">Edgar Morrison</div>
+					<div class="member-position">CEO</div>
+				</div>
+
+				</div>
+
+				<div class="Edgar-description-desktop">
+					<div class="member-description text-align-justify">Having used discount toner cartridges
+					for twenty years, there have been a lot
+					</div>
+					<div class="member-description text-align-center">
+					of changes in the toner cartridge market. The market today is
+					</div>
+				</div>
+
+				<div class="member-media">
+					<div class="profile-media">
+						<img class="facebook" src="Assets/Profil/Facebook@1x.svg" />
+					</div>
+					<div class="profile-media">	
+						<img class="linkedin" src="Assets/Profil/linkedin@1x.svg" />
+					</div>
+				</div>
+
+			</div>
+
+			<div class="team-member" id="Mae">
+				<div class="image-space-between">
+				<img src="Assets/img/mae.png"/>
+
+				<div>
+					<div class="member-name">Mae Martin</div>
+					<div class="member-position">CTO</div>
+				</div>
+
+				</div>
+
+				<div class="cto-width">
+					<div class="member-description text-align-justify">Large businesses require a lot of IT infrastructure and a department to look after it. Small businesses often
+					</div>
+					<div class="member-description text-align-center">
+					can't afford to have that sort of
+					</div>
+				</div>
+
+
+
+				<div class="member-media">
+					<div class="profile-media">
+						<img class="facebook" src="Assets/Profil/Facebook@1x.svg" />
+					</div>
+					<div class="profile-media">	
+						<img class="linkedin" src="Assets/Profil/linkedin@1x.svg" />
+					</div>
+				</div>
+
+			</div>
+
+			<div class="team-member" id="David">
+				<div class="image-space-between">
+				<img src="Assets/img/david.png"/>
+
+				<div>
+					<div class="member-name">David Banks</div>
+					<div class="member-position">CFO</div>
+				</div>
+
+				</div>
+
+				<div class="cfo-width">
+					<div class="member-description text-align-center">
+						Computers users and programmers
+					</div>
+					<div class="member-description text-align-justify"> have become so accustomed to using
+					</div>
+					<div class="member-description text-align-center">
+						 Windows, evan for the changing capabilities and the appearances of
+					</div>
+				</div>
+
+
+
+				<div class="member-media">
+					<div class="profile-media">
+						<img class="facebook" src="Assets/Profil/Facebook@1x.svg" />
+					</div>
+					<div class="profile-media">	
+						<img class="linkedin" src="Assets/Profil/linkedin@1x.svg" />
+					</div>
+				</div>
+
+			</div>
+
+			<div class="team-member" id="Frederick">
+				<div class="image-space-between">
+				<img src="Assets/img/frederick.png"/>
+
+				<div>
+					<div class="member-name">Frederick Parsons</div>
+					<div class="member-position">CCO</div>
+				</div>
+
+				</div>
+
+				<div>
+					<div class="member-description text-align-center">
+						Most people who work in an office
+					</div>	
+					<div class="member-description text-align-justify"> environment, buy computer products, or have a computer at home have had 
+					</div>
+					<div class="member-description text-align-center">
+					the "fun" experiance of dealing with
+					</div>
+				</div>
+
+
+
+				<div class="member-media">
+					<div class="profile-media">
+						<img class="facebook" src="Assets/Profil/Facebook@1x.svg" />
+					</div>
+					<div class="profile-media">	
+						<img class="linkedin" src="Assets/Profil/linkedin@1x.svg" />
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="change-team-member-mobile">
+			<div class="change-team-dot" id="Edgar-selector"></div>
+			<div class="change-team-dot" id="Mae-selector"></div>
+			<div class="change-team-dot" id="David-selector"></div>
+			<div class="change-team-dot" id="Frederick-selector"></div>
+		</div>
+
+		<script type="text/javascript">
+
+			(function () {
+			    document.getElementById("Edgar-selector").style.background = "#2d3ba2";
+			})();
+
+			document.getElementById('Edgar-selector').addEventListener("click", function(){
+
+				document.getElementById("Edgar-selector").style.background = "#2d3ba2";
+				document.getElementById("Mae-selector").style.background = "#c2c2d6";
+				document.getElementById("David-selector").style.background = "#c2c2d6";
+				document.getElementById("Frederick-selector").style.background = "#c2c2d6";
+
+			    document.getElementById("Edgar").style.display = 'flex';
+			    document.getElementById("Mae").style.display = 'none'
+			    document.getElementById("David").style.display = 'none'
+			    document.getElementById("Frederick").style.display = 'none'
+			});
+
+			document.getElementById('Mae-selector').addEventListener("click", function(){
+
+				document.getElementById("Edgar-selector").style.background = "#c2c2d6";
+				document.getElementById("Mae-selector").style.background = "#2d3ba2";
+				document.getElementById("David-selector").style.background = "#c2c2d6";
+				document.getElementById("Frederick-selector").style.background = "#c2c2d6";
+
+			    document.getElementById("Edgar").style.display = 'none';
+			    document.getElementById("Mae").style.display = 'flex'
+			    document.getElementById("David").style.display = 'none'
+			    document.getElementById("Frederick").style.display = 'none'
+			});
+
+			document.getElementById('David-selector').addEventListener("click", function(){
+
+				document.getElementById("Edgar-selector").style.background = "#c2c2d6";
+				document.getElementById("Mae-selector").style.background = "#c2c2d6";
+				document.getElementById("David-selector").style.background = "#2d3ba2";
+				document.getElementById("Frederick-selector").style.background = "#c2c2d6";
+
+			    document.getElementById("Edgar").style.display = 'none';
+			    document.getElementById("Mae").style.display = 'none'
+			    document.getElementById("David").style.display = 'flex'
+			    document.getElementById("Frederick").style.display = 'none'
+			});
+
+			document.getElementById('Frederick-selector').addEventListener("click", function(){
+
+				document.getElementById("Edgar-selector").style.background = "#c2c2d6";
+				document.getElementById("Mae-selector").style.background = "#c2c2d6";
+				document.getElementById("David-selector").style.background = "#c2c2d6";
+				document.getElementById("Frederick-selector").style.background = "#2d3ba2";
+
+			    document.getElementById("Edgar").style.display = 'none';
+			    document.getElementById("Mae").style.display = 'none'
+			    document.getElementById("David").style.display = 'none'
+			    document.getElementById("Frederick").style.display = 'flex'
+			});
+
+		</script>
+	</div>
+
+</div>
+
+<div class="foot-section">
+	<div class="foot-content-container">
+
+		<div class="logo-whitepaper-container">
+
+			<div class="footer-logo-container">
+				<img src="Assets/logo/Light.svg" />
+			</div>
+
+			<div class="whitepaper-button-container">
+				<div class="whitepaper-button">Read Whitepaper</div>
+			</div>
+
+		</div>
+
+		<div class="contact">
+			<div class="contact-us">Contact us:</div>
+			<a class="contact-link contact-link-desktop" href="#">have@nicecoding.io</a>
+			<a class="contact-link contact-link-mobile" href="#">hello@stay.io</a>
+			<div class="contact-description">Lorem ipsum dolor sit amet, sed nec ante elit lobortis, quis bibendum. </div>
+		</div>
+
+
+	</div>
+
+		<div class="foot-copyright-bar-desktop">
+			<div class="foot-element">©Copywriters 2017</div>
+			<div class="foot-separator"></div>
+			<div class="foot-element">FAQ</div>
+			<div class="foot-separator"></div>
+			<div class="foot-element">Terms of Use</div>
+			<div class="foot-separator"></div>
+			<div class="foot-element">Privacy Policy</div>
+		</div>
+
+		<div class="foot-copyright-bar-mobile">
+			<div class="foot-container-mobile">
+				<div class="foot-element">Terms of Use</div>
+				<div class="foot-separator"></div>
+				<div class="foot-element">FAQ</div>
+				<div class="foot-separator"></div>
+				<div class="foot-element">Privacy Policy</div>
+			</div>
+
+			<div class="foot-element copyright">©Copywriters 2017</div>
+		</div>
+
+</div>
+
+
+
+</body>
+</html>
